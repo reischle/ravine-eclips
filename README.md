@@ -8,7 +8,7 @@ Here is what we know:
 * From the obeservable telemetry (e.g. with nRF Connect) on an already connected smartphone running the Canyon App, we can conclude:
   * The connection runs on BLE (Bluetooth Low Energy)
   * It sends clear text ascii telemetry over a standard Nordic UART TX service
-  * It also announces a Zephyr SMP Service, which makes it most likely that the Blackbox is running on [Zephy OS] (https://docs.zephyrproject.org/latest/introduction/index.html)
+  * It also announces a Zephyr SMP Service, which makes it most likely that the Blackbox is running on [Zephyr OS](https://docs.zephyrproject.org/latest/introduction/index.html). This is well documented, so there are probably no exotic surprises.
 
 Here is the telemetry output of a stationary bike:
 ```
