@@ -10,7 +10,7 @@ Here is what we know:
   * It sends clear text ascii telemetry over a standard Nordic UART TX service
   * It also announces a Zephyr SMP Service, which makes it most likely that the Blackbox is running on [Zephyr OS](https://docs.zephyrproject.org/latest/introduction/index.html). This is well documented, so there are probably no exotic surprises.
 
-Here is the telemetry output of a stationary bike:
+Here is the telemetry output of a stationary bike as produced by the ravine-eclips-telemetry-serial-v1.ino sketch:
 ```
 UID: cps_02
 Chg: 0, 0
@@ -33,3 +33,5 @@ VAC2: 0
 ```
 What does stand out is, that there is a Speed output. I wonder what that is derived from. Possibly the frequency of the AC input, which immediately raises the question why there are two VAC readings and if the DC-ripple of the suspected voltage multiplier is pronounced enough to register properly to calculate the speed.
 The BlackBox might sill have some tricks up it's sleeve that don't show in the App yet.
+
+If you have a 12-LED Neopixel ring, try the ravine-eclips-telemetry-neopixel-v1.ino sketch for life charge/discharge monitoring of the battery
