@@ -1,6 +1,6 @@
 # ravine-eclips
 Insights on the Canyon Eclips lighting system. Attempt to de-APP-ify the system into an ESP32 based single-purpose-device.
-<img src="https://github.com/reischle/ravine-eclips/blob/main/ravine-eclips.png" width="400" alt="An Eclipse over a Canyon">
+<img src="https://github.com/reischle/ravine-eclips/blob/main/images/ravine-eclips.png" width="400" alt="An Eclipse over a Canyon">
 
 Here is what we know:
 * The electronics were designed and manufactured by [IK-Elektronik](https://www.ik-elektronik.de/eclips/) in Germany. 
