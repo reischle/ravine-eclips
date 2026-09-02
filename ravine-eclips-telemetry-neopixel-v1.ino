@@ -141,6 +141,7 @@ void updateBargraph(int value) {
         }
     }
     // Bei genau 0 bleiben alle LEDs aus (durch strip.clear())
+	// Allerdings leuchtet meistens eine LED noch rot wegen des Ruhestroms
     strip.show(); // Änderungen auf den Ring übertragen
 }
 

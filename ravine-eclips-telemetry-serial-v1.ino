@@ -17,7 +17,7 @@ const uint32_t BLE_PASSKEY = 111111; // Important: put your PIN here. It is the 
 
 
 // ============================================================================
-// RINGPUFFER FÜR DEN DATENSTRUM (STABILITÄTSREGELN)
+// RINGPUFFER FÜR DEN DATENSTROM
 // ============================================================================
 #define RING_BUF_SIZE 1024
 uint8_t ringBuffer[RING_BUF_SIZE];
