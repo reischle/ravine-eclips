@@ -36,3 +36,4 @@ The BlackBox might sill have some tricks up it's sleeve that don't show in the A
 
 If you have a 12-LED Neopixel ring, try the ravine-eclips-telemetry-neopixel-v1.ino sketch for life charge/discharge monitoring of the battery
 <img src="https://github.com/reischle/ravine-eclips/blob/main/images/tempSetup.JPG" width="400" alt="Temporary setup on my Bike">
+<img src="https://github.com/reischle/ravine-eclips/blob/main/images/ring.JPG" width="400" alt="WorkbenchSetup">
