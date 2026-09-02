@@ -35,3 +35,4 @@ What does stand out is, that there is a Speed output. I wonder what that is deri
 The BlackBox might sill have some tricks up it's sleeve that don't show in the App yet.
 
 If you have a 12-LED Neopixel ring, try the ravine-eclips-telemetry-neopixel-v1.ino sketch for life charge/discharge monitoring of the battery
+<img src="https://github.com/reischle/ravine-eclips/blob/main/images/tempSetup.JPG" width="400" alt="Temporary setup on my Bike">
