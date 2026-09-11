@@ -39,3 +39,9 @@ If you have a 12-LED Neopixel ring, try the ravine-eclips-telemetry-neopixel-v1.
 <img src="https://github.com/reischle/ravine-eclips/blob/main/images/ring.JPG" width="400" alt="WorkbenchSetup">
 
 Super important for successful compilation of the sketches is the right NimBLE Version: NimBLE-Arduino 2.5.1
+
+Frequent problems and failures
+Daily discharge rate of 2% to 5% - At the moment there seems nothing we can do about it. Bluetooth is active all the time. If the system sleeps, it does nit sleep very deeply.
+Contact and wiring problems - Users have reported numerous problems
+Corrosion - Keep water out of the USB-C port at all costs
+Intermittent failure to charge while riding - Even for a system that does not suffer from other problems, riders report that the system loses charge during rides. This is when the two Chg values go to "0" while riding. I suspect that the AC from the generator is poorly shaped when loads are low.
