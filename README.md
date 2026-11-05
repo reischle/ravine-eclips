@@ -44,4 +44,13 @@ Frequent problems and failures
 * Daily discharge rate of 2% to 5% - At the moment there seems nothing we can do about it. Bluetooth is active all the time. If the system sleeps, it does not sleep very deeply.
 * Contact and wiring problems - Users have reported numerous problems
 * Corrosion - Keep water out of the USB-C port at all costs
-* Intermittent failure to charge while riding - Even for a system that does not suffer from other problems, riders report that the system loses charge during rides. This is when the two Chg values go to "0" while riding. I suspect that the AC from the generator is poorly shaped when loads are low.
+* Intermittent failure to charge while riding - Even for a system that does not suffer from other problems, riders report that the system loses charge during rides. This is when the two Chg values go to "0" while riding. That is some crude form of overcharge protection that kicks in way too early on my system.
+Known commands:
+```
+Decimal,Hex-Byte,Function
+3,0x03,Frontlight ON
+4,0x04,Frontlight OFF
+5,0x05,Rearlight ON
+6,0x06,Rearlight OFF
+14,0x0E,Telemetry / poll state
+```
