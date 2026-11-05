@@ -45,6 +45,9 @@ Frequent problems and failures
 * Contact and wiring problems - Users have reported numerous problems
 * Corrosion - Keep water out of the USB-C port at all costs
 * Intermittent failure to charge while riding - Even for a system that does not suffer from other problems, riders report that the system loses charge during rides. This is when the two Chg values go to "0" while riding. That is some crude form of overcharge protection that kicks in way too early on my system.
+* There appears to be a maximum of 5 devices/MAC addresses that can be coupled. As it would not let me connect a 6th device, I had to resort so spoofing an already known MAC address on the ESP32 while I went through project iterations.
+
+
 Known commands:
 ```
 Decimal,Hex-Byte,Function
